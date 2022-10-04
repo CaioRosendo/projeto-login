@@ -39,8 +39,14 @@ section#login {
 }
 
 section#login > div#imagem {
-    background-image: #5f2c82 url(../Imagens/predio.jpg) no-repeat;
+    display: block;
+    background: #5f2c82 url(../Imagens/predio.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
