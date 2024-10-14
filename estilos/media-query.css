@@ -30,6 +30,9 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+    form > input[type=submit] {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -57,5 +60,8 @@
     div#formulario > p {
         font-size: 1.4em;
     }
+    form > input[type=submit] {
+        margin-top: 15px;
+    }
 }
-
+   
